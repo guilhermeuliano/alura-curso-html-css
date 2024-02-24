@@ -1,41 +1,43 @@
-@font-face {
-  font-family: minhaFont;
-  src: url(Rasa-Regular.ttf);
-}
-
 * {
-  font-family: minhaFont;
   margin: 0;
   padding: 0;
 }
 
 body {
-  box-sizing: border-box;
   height: 100vh;
-  background-color: #040d12;
-  color: #ffffff;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #f6f6f6;
 }
 
-strong {
-  color: #183d3d;
-}
-
-span {
-  color: #183d3d;
-  border: 1px solid #183d3d;
-  padding: 2px;
+.strong-title {
+  color: #0e503f;
 }
 
 img {
-  color: #5c8374;
-  border: 2px solid #5c8374;
-  border-radius: 5%;
+  color: #0e503f;
+  border: 2px solid #0e503f;
+  border-radius: 3%;
   padding: 5px;
-  width: 40%;
-  height: 40%;
+  width: 352px;
+  height: 395px;
 }
 
 .container-main {
+  margin: 10%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.container-main-section-content {
+  width: 615px;
+}
+
+.container-main-title {
+  font-size: 36px;
+}
+
+.container-main-paragraph {
+  font-size: 24px;
 }
