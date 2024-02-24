@@ -1,0 +1,32 @@
+@font-face {
+  font-family: minhaFont;
+  src: url(Rasa-Regular.ttf);
+}
+
+* {
+  font-family: minhaFont;
+}
+
+body {
+  background-color: #040d12;
+  color: #ffffff;
+}
+
+strong {
+  color: #183d3d;
+}
+
+span {
+  color: #183d3d;
+  border: 1px solid #183d3d;
+  padding: 2px;
+}
+
+img {
+  color: #5c8374;
+  border: 2px solid #5c8374;
+  border-radius: 5%;
+  padding: 5px;
+  width: 40%;
+  height: 40%;
+}
