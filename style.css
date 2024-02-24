@@ -5,9 +5,13 @@
 
 * {
   font-family: minhaFont;
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  box-sizing: border-box;
+  height: 100vh;
   background-color: #040d12;
   color: #ffffff;
 }
@@ -29,4 +33,9 @@ img {
   padding: 5px;
   width: 40%;
   height: 40%;
+}
+
+.container-main {
+  display: flex;
+  align-items: center;
 }
