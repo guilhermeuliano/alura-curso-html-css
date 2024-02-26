@@ -1,3 +1,6 @@
+/* Importando fontes do projeto Krona One e Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -36,8 +39,29 @@ img {
 
 .container-main-title {
   font-size: 36px;
+  font-family: "Krona One", sans-serif;
 }
 
 .container-main-paragraph {
   font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.container-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-links-style {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  width: 280px;
+  background-color: #22d4fd;
+  color: #000000;
+  padding: 21.5px 0px;
+  border-radius: 16px;
+  text-align: center;
+  text-decoration: none;
 }
