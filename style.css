@@ -14,12 +14,12 @@ body {
 }
 
 .strong-title {
-  color: #22d4fd;
+  color: #0e503f;
 }
 
-.container-main-img-profile {
-  color: #22d4fd;
-  border: 2px solid #22d4fd;
+img {
+  color: #116e57;
+  border: 2px solid #116e57;
   border-radius: 3%;
   padding: 5px;
   width: 352px;
@@ -54,36 +54,17 @@ body {
 .container-links {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
-  gap: 32px;
-}
-
-.container-links-subtitle {
-  font-family: "Krona One", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
 }
 
 .container-links-style {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 24px;
-  width: 378px;
-  /* background-color: #116e57; */
-  border: 2px solid #22d4fd;
-  color: #ffffff;
+  width: 280px;
+  background-color: #116e57;
+  color: #000000;
   padding: 21.5px 0px;
-  border-radius: 8px;
-  font-family: "Montserrat", sans-serif;
+  border-radius: 16px;
   text-align: center;
   text-decoration: none;
-}
-
-.container-links-style:hover {
-  background-color: #252525;
-  font-size: 26px;
 }
