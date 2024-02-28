@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 100vh;
+  /* height: 100hv; */
   box-sizing: border-box;
   background-color: #000000;
   color: #f6f6f6;
@@ -27,7 +27,8 @@ body {
 }
 
 .container-main {
-  margin: 15% 20%;
+  /* margin: 15% 20%; */
+  padding: 8% 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -86,4 +87,14 @@ body {
 .container-links-style:hover {
   background-color: #252525;
   font-size: 26px;
+}
+
+.footer {
+  padding: 24px;
+  color: #000000;
+  background-color: #22d4fd;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
 }
