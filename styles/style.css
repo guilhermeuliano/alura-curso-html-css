@@ -1,5 +1,14 @@
-/* Importando fontes do projeto Krona One e Montserrat */
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-background: #000000;
+  --color-text: #f6f6f6;
+  --color-strong-text: #22d4fd;
+  --color-hover: #252525;
+
+  --font-primary: "Krona One", sans-serif;
+  --font-secundary: "Montserrat", sans-serif;
+}
 
 * {
   margin: 0;
@@ -17,30 +26,29 @@
 
 .header-menu-link {
   text-decoration: none;
-  color: #22d4fd;
+  color: var(--color-strong-text);
   font-size: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-secundary);
   font-weight: 600;
 }
 
 .header-menu-link:hover {
-  color: #ffffff;
+  color: var(--color-text);
 }
 
 body {
-  /* height: 100hv; */
   box-sizing: border-box;
-  background-color: #000000;
-  color: #f6f6f6;
+  background-color: var(--color-background);
+  color: var(--color-text);
 }
 
 .strong-title {
-  color: #22d4fd;
+  color: var(--color-strong-text);
 }
 
 .container-main-img-profile {
-  color: #22d4fd;
-  border: 2px solid #22d4fd;
+  color: var(--color-strong-text);
+  border: 2px solid var(--color-strong-text);
   border-radius: 3%;
   padding: 5px;
   width: 352px;
@@ -48,7 +56,6 @@ body {
 }
 
 .container-main {
-  /* margin: 15% 20%; */
   padding: 8% 15%;
   display: flex;
   align-items: center;
@@ -64,12 +71,12 @@ body {
 
 .container-main-title {
   font-size: 36px;
-  font-family: "Krona One", sans-serif;
+  font-family: var(--font-primary);
 }
 
 .container-main-paragraph {
   font-size: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-secundary);
   font-weight: 400;
 }
 
@@ -82,7 +89,7 @@ body {
 }
 
 .container-links-subtitle {
-  font-family: "Krona One", sans-serif;
+  font-family: var(--font-primary);
   font-weight: 400;
   font-size: 24px;
 }
@@ -95,26 +102,25 @@ body {
   font-weight: 600;
   font-size: 24px;
   width: 378px;
-  /* background-color: #116e57; */
-  border: 2px solid #22d4fd;
-  color: #ffffff;
+  border: 2px solid var(--color-strong-text);
+  color: var(--color-text);
   padding: 21.5px 0px;
   border-radius: 8px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-secundary);
   text-align: center;
   text-decoration: none;
 }
 
 .container-links-style:hover {
-  background-color: #252525;
+  background-color: var(--color-hover);
   font-size: 26px;
 }
 
 .footer {
   padding: 24px;
-  color: #000000;
-  background-color: #22d4fd;
-  font-family: "Montserrat", sans-serif;
+  color: var(--color-background);
+  background-color: var(--color-strong-text);
+  font-family: var(--font-secundary);
   font-weight: 400;
   font-size: 20px;
   text-align: center;
