@@ -55,7 +55,7 @@ body {
   width: 615px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 40px;
 }
 
 .container-main-title {
@@ -63,35 +63,10 @@ body {
   font-family: "Krona One", sans-serif;
 }
 
-.container-main-subtitles {
-  font-family: "Krona One", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-}
-
 .container-main-paragraph {
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 16px;
-}
-
-.container-main-list-link {
-  text-decoration: none;
-  color: #22d4fd;
-}
-
-.container-main-list-link:hover {
-  color: #61a3b3;
-}
-
-.container-main-list {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.container-main-list-strong {
-  color: #22d4fd;
 }
 
 .footer {
