@@ -2,8 +2,8 @@
 # Curso alura
 
 Curso Alura formação web.<br>
-Nesse projeto será utilizado em conjunto com o Figma.<br>
-Novas versões serão postadas por Branch's
+Nesse curso será utilizado em conjunto com o [Figma](https://www.figma.com/file/rZ0ZDD9QYUwgXC8ZkJJpEX/Portfolio---Curso-3?type=design&mode=design) para simular um projeto real.<br>
+Novas versões serão postadas por em Branch's separadas para manter o projeto organizado.
 
 Projeto da formação front-end da Alura:<br>
 HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags<br>
