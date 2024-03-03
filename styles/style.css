@@ -21,13 +21,13 @@
 
 .header-menu {
   display: flex;
-  gap: 80px;
+  gap: 5rem;
 }
 
 .header-menu-link {
   text-decoration: none;
   color: var(--color-strong-text);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: var(--font-secundary);
   font-weight: 600;
 }
@@ -50,9 +50,9 @@ body {
   color: var(--color-strong-text);
   border: 2px solid var(--color-strong-text);
   border-radius: 3%;
-  padding: 5px;
-  width: 352px;
-  height: 395px;
+  padding: 0.31rem;
+  width: 22rem;
+  height: 24.69rem;
 }
 
 .container-main {
@@ -63,19 +63,19 @@ body {
 }
 
 .container-main-section-content {
-  width: 615px;
+  width: 38.44rem;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .container-main-title {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: var(--font-primary);
 }
 
 .container-main-paragraph {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: var(--font-secundary);
   font-weight: 400;
 }
@@ -85,27 +85,27 @@ body {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .container-links-subtitle {
   font-family: var(--font-primary);
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .container-links-style {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
   font-weight: 600;
-  font-size: 24px;
-  width: 378px;
+  font-size: 1.5rem;
+  width: 23.62rem;
   border: 2px solid var(--color-strong-text);
   color: var(--color-text);
-  padding: 21.5px 0px;
-  border-radius: 8px;
+  padding: 1.37rem 0rem;
+  border-radius: 0.5rem;
   font-family: var(--font-secundary);
   text-align: center;
   text-decoration: none;
@@ -113,15 +113,15 @@ body {
 
 .container-links-style:hover {
   background-color: var(--color-hover);
-  font-size: 26px;
+  font-size: 1.6rem;
 }
 
 .footer {
-  padding: 24px;
+  padding: 1.5rem;
   color: var(--color-background);
   background-color: var(--color-strong-text);
   font-family: var(--font-secundary);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.2rem;
   text-align: center;
 }
